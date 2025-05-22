@@ -11,7 +11,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from support import router as support_router, setup_support
 from handler import router as main_router  # Твой основной обработчик с /start, faq, чат ИИ и т.д.
 
-ADMIN_ID = 1326404077  # Задай ID администратора здесь
+ADMIN_ID = 123456789  # Задай ID администратора здесь
 
 TOKEN = os.getenv("BOT_TOKEN")
 if TOKEN is None:
